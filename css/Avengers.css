@@ -9,9 +9,6 @@ ol,ul{
 html{
     scroll-behavior: smooth;
 }
-::selection{
-    color:rgb(255, 234, 0);
-}
 .claer::after{
     content: '';
     height: 0;
