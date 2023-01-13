@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="./icons/favicon.ico" />
+        <link rel="stylesheet" href="./css/font/iconfont.css" />
+        <link rel="stylesheet" href="./css/Avengers.css" />
+        <title>Avengers</title>
+    </head>
+    <body>
+        <header id="top">
+            <nav >
+                <ul class="nav">
+                    <li class="clear">
+                        <a href="index.html">
+                            <span class="iconfont iconfont-index"></span>
+                            首页
+                        </a>
+                    </li>
+                    <li class="clear">
+                        <a href="report.html">
+                            <span class="iconfont iconfont-report"></span>
+                            报告
+                        </a>
+                    </li>
+                    <li class="clear">
+                        <a href="news.html">
+                            <span class="iconfont iconfont-news"></span>
+                            新闻
+                        </a>
+                    </li>
+                    <li class="clear erji">
+                        <a>
+                            <span class="iconfont iconfont-id"></span>
+                            角色
+                        </a>
+                        <div class="nav2">
+                            <ul>
+                                <li>
+                                    <a href="avengers.html">
+                                        <span class="iconfont iconfont-id"></span>
+                                        复仇者
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="otherhero.html">
+                                        <span class="iconfont iconfont-id"></span>
+                                        其他英雄
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="captain" ID="first">
+                    <table class="name">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <button class="active">
+                                        <img src="./icons/美队.jpg">
+                                       <span>美国队长</span>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button onclick="display1()">
+                                        <img src="./icons/铁人.jpg">
+                                        <span>钢铁侠</span>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button onclick="display2()">
+                                        <img src="./icons/浩克.jpg">
+                                        <span>女浩克</span>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button onclick="display3()">
+                                        <img src="./icons/雷神.jpg">
+                                        <span>雷神</span>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button onclick="display4()">
+                                        <img src="./icons/女巫.jpg">
+                                        <span>绯红女巫</span>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button onclick="display5()">
+                                        <img src="./icons/幻视.jpg">
+                                        <span>幻视</span>
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="information">
+                        <tbody style="width:100%">
+                            <tr style="height: 30%;width: 1em;" class="firstline">
+                                <td style="width: 30%;">
+                                    <span>出生年份:1918</span>
+                                </td>
+                                <td style="width: 20%;">
+                                    <span>职业:军人</span>
+                                </td>
+                                <td style="width: 35%;">
+                                    <span>姓名:史蒂夫罗杰斯</span>
+                                </td>
+                                <td style="width: 15%;">
+                                    <img src="./images/美国队长.jpg">
+                                </td>
+                            </tr>
+                            <tr style="height: 70%;width: 100%;">
+                                <td colspan="4">美国队长原本是一名身体瘦弱的年轻军人，在接受美国政府的改造后，成为各项体能都远超常人的“超级战士”，还被美国政府赋予了由世界上最坚硬的金属之一振金制成的盾牌，并在二战中率领侵袭者立下赫赫战功。后来在二战尾声的一次行动中，美国队长与宿敌红骷髅展开激战，并掉入大海之中，被冰封了近70年，直到被神盾局发现并解冻后才加入了复仇者联盟，此后在美国队长的领导下，复仇者联盟出生入死，赢得一次又一次近乎不可能的胜利。</td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </div>
+            <div class="ironman" ID="second">
+                <table class="name">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <button onclick="display21()">
+                                    <img src="./icons/美队.jpg">
+                                   <span>美国队长</span>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button class="active">
+                                    <img src="./icons/铁人.jpg">
+                                    <span>钢铁侠</span>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button onclick="display22()">
+                                    <img src="./icons/浩克.jpg">
+                                    <span>女浩克</span>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button onclick="display23()">
+                                    <img src="./icons/雷神.jpg">
+                                    <span>雷神</span>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button onclick="display24()">
+                                    <img src="./icons/女巫.jpg">
+                                    <span>绯红女巫</span>
+                                </button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button onclick="display25()">
+                                    <img src="./icons/幻视.jpg">
+                                    <span>幻视</span>
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="information">
+                    <tbody style="width:100%">
+                        <tr style="height: 30%;width: 1em;" class="firstline">
+                            <td style="width: 30%;">
+                                <span>出生年份:1970</span>
+                            </td>
+                            <td style="width: 20%;">
+                                <span>职业:CEO</span>
+                            </td>
+                            <td style="width: 35%;">
+                                <span>姓名:托尼·史塔克</span>
+                            </td>
+                            <td style="width: 15%;">
+                                <img src="./images/钢铁侠.jpg">
+                            </td>
+                        </tr>
+                        <tr style="height: 70%;width: 100%;">
+                            <td colspan="4">托尼·史塔克是斯塔克工业的董事长，从父亲霍华德·斯塔克那里接手了庞大的家业，以他独特的生活方式与其聪明才智及天才发明家闻名。斯塔克曾是世界顶尖的武器制造商，一次与死亡擦肩而过的经历迫使他重新思考自身的价值，并最终意识到可以把自己惊人的天分用在更好的事情上。在此之后他制造出了极为先进的钢铁侠盔甲。</td>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
+                <div class="shehulk" ID="third">
+                    <table class="name">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <button onclick="display31()">
+                                        <img src="./icons/美队.jpg">
+                                       <span>美国队长</span>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button onclick="display32()">
+                                        <img src="./icons/铁人.jpg">
+                                        <span>钢铁侠</span>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button class="active">
+                                        <img src="./icons/浩克.jpg">
+                                        <span>女浩克</span>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button onclick="display33()">
+                                        <img src="./icons/雷神.jpg">
+                                        <span>雷神</span>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button onclick="display34()">
+                                        <img src="./icons/女巫.jpg">
+                                        <span>绯红女巫</span>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button onclick="display35()">
+                                        <img src="./icons/幻视.jpg">
+                                        <span>幻视</span>
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="information">
+                        <tbody style="width:100%">
+                            <tr style="height: 30%;width: 1em;" class="firstline">
+                                <td style="width: 30%;">
+                                    <span>出生年份:1980</span>
+                                </td>
+                                <td style="width: 20%;">
+                                    <span>职业:律师</span>
+                                </td>
+                                <td style="width: 35%;">
+                                    <span>姓名:珍妮佛·沃尔特斯</span>
+                                </td>
+                                <td style="width: 15%;">
+                                    <img src="./images/女浩克.png">
+                                </td>
+                            </tr>
+                            <tr style="height: 70%;width: 100%;">
+                                <td colspan="4">珍妮佛·苏珊·沃尔特斯是绿巨人—布鲁斯·班纳的表妹，一位洛杉矶女律师。她的父亲则是洛城的一名警官。作为刑事律师的她整天生活在危险中，黑帮为阻止詹妮弗上庭辩护而开枪射杀她，受重伤的她急需输血，碰巧布鲁斯·班纳在洛杉矶，因血库缺血所以他紧急给詹妮弗输了自己被伽马射线辐射的血，由此詹妮弗的DNA也产生了突变，有了变身能力，而成为女浩克。</td>
+                            </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="thor" ID="fourth">
+                    <table class="name">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <button onclick="display41()">
+                                        <img src="./icons/美队.jpg">
+                                       <span>美国队长</span>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button onclick="display42()">
+                                        <img src="./icons/铁人.jpg">
+                                        <span>钢铁侠</span>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button onclick="display43()">
+                                        <img src="./icons/浩克.jpg">
+                                        <span>女浩克</span>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button class="active">
+                                        <img src="./icons/雷神.jpg">
+                                        <span>雷神</span>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button onclick="display44()">
+                                        <img src="./icons/女巫.jpg">
+                                        <span>绯红女巫</span>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button onclick="display45()">
+                                        <img src="./icons/幻视.jpg">
+                                        <span>幻视</span>
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="information">
+                        <tbody style="width:100%">
+                            <tr style="height: 30%;width: 1em;" class="firstline">
+                                <td style="width: 30%;">
+                                    <span>出生年份:不详</span>
+                                </td>
+                                <td style="width: 20%;">
+                                    <span>职业:无</span>
+                                </td>
+                                <td style="width: 35%;">
+                                    <span>姓名:索尔·奥丁森</span>
+                                </td>
+                                <td style="width: 15%;">
+                                    <img src="./images/雷神索尔.png">
+                                </td>
+                            </tr>
+                            <tr style="height: 70%;width: 100%;">
+                                <td colspan="4">一直以来，索尔都被认为具有大地母神盖亚的血统，而实际上，他是阿斯加德神王和变种人（凤凰宿主）的混血儿，故比其他的仙宫诸神更为强壮。他具有超凡的力量和速度，并且可以长时间地战斗而不感到疲劳。他可以不携带任何装备而自由进入深海和太空。拥有超人的力量、速度、耐力和防御力，可抵挡巨大的爆炸、撞击、华氏9000度的超高温及绝对零度以下的低温，并可抵抗魔法。地球上的武器几乎无法伤其分毫，托尔是漫威里屈指可数的强大角色。大多数时候，索尔在地球战斗时收敛自己的力量，以免对地球造成过大的破坏（或影响地球生物的选择和发展）。 索尔能够使用雷神之锤，在转动雷神之锤后飞行。他亦可用雷神之锤操纵天气和与风暴相关的一切元素（雷电、风雨和雪）。</td>
+                            </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="witch" ID="fifth">
+                    <table class="name">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <button onclick="display51()">
+                                        <img src="./icons/美队.jpg">
+                                       <span>美国队长</span>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button onclick="display52()">
+                                        <img src="./icons/铁人.jpg">
+                                        <span>钢铁侠</span>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button onclick="display53()">
+                                        <img src="./icons/浩克.jpg">
+                                        <span>女浩克</span>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button onclick="display54()">
+                                        <img src="./icons/雷神.jpg">
+                                        <span>雷神</span>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button class="active">
+                                        <img src="./icons/女巫.jpg">
+                                        <span>绯红女巫</span>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button onclick="display55()">
+                                        <img src="./icons/幻视.jpg">
+                                        <span>幻视</span>
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="information">
+                        <tbody style="width:100%">
+                            <tr style="height: 30%;width: 1em;" class="firstline">
+                                <td style="width: 30%;">
+                                    <span>出生年份:1964</span>
+                                </td>
+                                <td style="width: 20%;">
+                                    <span>职业:魔法师</span>
+                                </td>
+                                <td style="width: 35%;">
+                                    <span>姓名:旺达·马克西莫夫</span>
+                                </td>
+                                <td style="width: 15%;">
+                                    <img src="./images/绯红女巫.jpg">
+                                </td>
+                            </tr>
+                            <tr style="height: 70%;width: 100%;">
+                                <td colspan="4">绯红女巫旺达·马克西莫夫和快银皮特罗·马克西莫夫是一对双胞胎。他们曾加入万磁王的变种人兄弟会，但他们对万磁王的所作所为有很大的抵触。后改邪归正，加入复仇者联盟，成为美国队长的得力助手，共同打击邪恶。</td>
+                            </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="vision" ID="sixth">
+                    <table class="name">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <button onclick="display61()">
+                                        <img src="./icons/美队.jpg">
+                                       <span>美国队长</span>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button onclick="display62()">
+                                        <img src="./icons/铁人.jpg">
+                                        <span>钢铁侠</span>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button onclick="display63()">
+                                        <img src="./icons/浩克.jpg">
+                                        <span>女浩克</span>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button onclick="display64()">
+                                        <img src="./icons/雷神.jpg">
+                                        <span>雷神</span>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button onclick="display65()">
+                                        <img src="./icons/女巫.jpg">
+                                        <span>绯红女巫</span>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button class="active">
+                                        <img src="./icons/幻视.jpg">
+                                        <span>幻视</span>
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="information">
+                        <tbody style="width:100%">
+                            <tr style="height: 30%;width: 1em;" class="firstline">
+                                <td style="width: 30%;">
+                                    <span>出生年份:1968</span>
+                                </td>
+                                <td style="width: 20%;">
+                                    <span>职业:机器人管家</span>
+                                </td>
+                                <td style="width: 35%;">
+                                    <span>姓名:幻视</span>
+                                </td>
+                                <td style="width: 15%;">
+                                    <img src="./images/幻视.png">
+                                </td>
+                            </tr>
+                            <tr style="height: 70%;width: 100%;">
+                                <td colspan="4">奥创为了对付复仇者联盟，将二战超级英雄初代霹雳火改造成生化人，并且用神力人的脑波将之激活，命名为幻视。接着奥创就派幻视去对抗复仇者，起初幻视就如同普通机器人一样没有感情，只会服从奥创的命令，但在与复仇者战斗的日子中，他隐藏的人性令他背叛了奥创，加入了复仇者。</td>
+                            </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+        </main>
+        <script>
+            function display1() {
+              document.getElementById("first").style.display = "none";
+              document.getElementById("second").style.display = "block";
+            }
+            function display2() {
+              document.getElementById("first").style.display = "none";
+              document.getElementById("third").style.display = "block";
+            }
+            function display3() {
+              document.getElementById("first").style.display = "none";
+              document.getElementById("fourth").style.display = "block";
+            }
+            function display4() {
+              document.getElementById("first").style.display = "none";
+              document.getElementById("fifth").style.display = "block";
+            }
+            function display5() {
+              document.getElementById("first").style.display = "none";
+              document.getElementById("sixth").style.display = "block";
+            }
+            function display21() {
+              document.getElementById("second").style.display = "none";
+              document.getElementById("first").style.display = "block";
+            }
+            function display22() {
+              document.getElementById("second").style.display = "none";
+              document.getElementById("third").style.display = "block";
+            }
+            function display23() {
+              document.getElementById("second").style.display = "none";
+              document.getElementById("fourth").style.display = "block";
+            }
+            function display24() {
+              document.getElementById("second").style.display = "none";
+              document.getElementById("fifth").style.display = "block";
+            }
+            function display25() {
+              document.getElementById("second").style.display = "none";
+              document.getElementById("sixth").style.display = "block";
+            }
+            function display31() {
+              document.getElementById("third").style.display = "none";
+              document.getElementById("first").style.display = "block";
+            }
+            function display32() {
+              document.getElementById("third").style.display = "none";
+              document.getElementById("second").style.display = "block";
+            }
+            function display33() {
+              document.getElementById("third").style.display = "none";
+              document.getElementById("fourth").style.display = "block";
+            }
+            function display34() {
+              document.getElementById("third").style.display = "none";
+              document.getElementById("fifth").style.display = "block";
+            }
+            function display35() {
+              document.getElementById("third").style.display = "none";
+              document.getElementById("sixth").style.display = "block";
+            }
+            function display41() {
+              document.getElementById("fourth").style.display = "none";
+              document.getElementById("first").style.display = "block";
+            }
+            function display42() {
+              document.getElementById("fourth").style.display = "none";
+              document.getElementById("second").style.display = "block";
+            }
+            function display43() {
+              document.getElementById("fourth").style.display = "none";
+              document.getElementById("third").style.display = "block";
+            }
+            function display44() {
+              document.getElementById("fourth").style.display = "none";
+              document.getElementById("fifth").style.display = "block";
+            }
+            function display45() {
+              document.getElementById("fourth").style.display = "none";
+              document.getElementById("sixth").style.display = "block";
+            }
+            function display51() {
+              document.getElementById("fifth").style.display = "none";
+              document.getElementById("first").style.display = "block";
+            }
+            function display52() {
+              document.getElementById("fifth").style.display = "none";
+              document.getElementById("second").style.display = "block";
+            }
+            function display53() {
+              document.getElementById("fifth").style.display = "none";
+              document.getElementById("third").style.display = "block";
+            }
+            function display54() {
+              document.getElementById("fifth").style.display = "none";
+              document.getElementById("fourth").style.display = "block";
+            }
+            function display55() {
+              document.getElementById("fifth").style.display = "none";
+              document.getElementById("sixth").style.display = "block";
+            }
+            function display61() {
+              document.getElementById("sixth").style.display = "none";
+              document.getElementById("first").style.display = "block";
+            }
+            function display62() {
+              document.getElementById("sixth").style.display = "none";
+              document.getElementById("second").style.display = "block";
+            }
+            function display63() {
+              document.getElementById("sixth").style.display = "none";
+              document.getElementById("third").style.display = "block";
+            }
+            function display64() {
+              document.getElementById("sixth").style.display = "none";
+              document.getElementById("fourth").style.display = "block";
+            }
+            function display65() {
+              document.getElementById("sixth").style.display = "none";
+              document.getElementById("fifth").style.display = "block";
+            }
+        </script>
+    </body>
+</html>
