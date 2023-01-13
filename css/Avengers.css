@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+ol,ul{
+    list-style: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.claer::after{
+    content: '';
+    height: 0;
+    display: block;
+    clear: both;
+}
+nav{
+    display:block;
+}
+body header nav{
+    position:fixed;
+    width: 100%;
+    height: 38px;
+    top:0;
+    background-color: rgba(0, 0, 0, 0.66);
+    line-height: 38px;
+    z-index: 100;
+}
+body header nav .nav{
+    position:relative;
+    text-align: center;
+    height: 38px;
+}
+body header nav .nav li{
+    width:18vw;
+    max-width:200px;
+    position: relative;
+    height: 100%;
+    float: right;
+    color:rgb(230, 230, 230);
+}
+body header nav .nav li a{
+    position: absolute;
+    display: block;
+    height: 38px;
+    width: 100%;
+    color:rgb(230, 230, 230);
+    opacity: 0.8;
+    z-index: 100;
+    text-decoration: none;
+}
+body header nav .nav li a:hover{
+    background-color: #fff;
+    color:rgba(0, 0, 0, 0.8);
+}
+body header nav .nav li .nav2{
+    position: absolute;
+    top:100%;
+    height: 38px;
+    width: 100%;
+    display:none;
+}
+.erji:hover .nav2{
+    display:block;
+}
+body header nav .nav li .nav2 ul{
+    height: 100%;
+    width: 100%;
+}
+.nav2 ul li{
+    background-color: rgba(0, 0, 0, 0.66);
+    line-height: 38px;
+    z-index: 100;
+}
+
+.iconfont-index:before{
+    content: "\e615";
+}
+.iconfont-report:before{
+    content: "\e607";
+}
+.iconfont-news:before{
+    content: "\e804";
+}
+.iconfont-id:before{
+    content: "\e78d";
+}
+body main>div{
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+body main .captain{
+    background: url(../images/美国队长.png) no-repeat center center fixed;
+}
+body main .ironman{
+    background: url(../images/钢铁侠.png) no-repeat center center fixed;
+}
+body main .shehulk{
+    background: url(../images/shehulk.jpg) no-repeat  top center fixed;
+}
+body main .thor{
+    background: url(../images/索尔.jpg) no-repeat  center center fixed;
+}
+body main .witch{
+    background: url(../images/绯红女巫.jpg) no-repeat  bottom right fixed;
+}
+body main .vision{
+    background: url(../images/幻视.jpg) fixed;
+}
+body main .name{
+    border-color:rgb(0, 0, 0);
+    border-collapse: separate;
+    border-spacing: 1.5vh;
+    width: 20vw;
+    height: 70vh;
+    border-width: 1px;
+    border-style: solid;
+    display: table;
+    text-align: left;
+    border-radius: 2vh 0 0 2vh ;
+    color: rgb(255, 255, 255);
+    position:absolute;
+    left:10vw;
+    top:15vh;
+    background-color: rgb(0, 0, 0,0.1);
+}
+body main .name th, td button{
+    width: 100%;
+    height:100%;
+    color: rgb(255, 255, 255);
+    background-color: rgb(200, 200, 200,0);
+    border: none;
+    font-size: 2vw;
+    font-weight: bolder;
+    text-align: left;
+}
+body main .name th, td .active{
+    color: beige;
+}
+body main button img{
+    height:7vh;
+    width:auto;
+    transform: translateY(2vh);
+}
+body main .information{
+    border-color:rgb(0, 0, 0);
+    border-spacing: 1.5vh;
+    width: 60vw;
+    height: 70vh;
+    border-width: 1px;
+    border-style: solid;
+    display: table;
+    text-align: left;
+    border-left: none;
+    border-radius: 0 2vh 2vh 0 ;
+    color: rgb(20, 20, 20);
+    position:absolute;
+    left:30vw;
+    top:15vh;
+    background-color: rgb(255, 255, 255,0.7);
+}
+body main .information  .firstline td{
+    border-right-width: 3px;
+    border-right-style: solid;
+    border-color:rgb(132, 132, 132,0.4);
+    font-size: 3.4vh;
+    text-align: center;
+}
+body main .information td img{
+    height:21vh;
+    width:9vw;
+}
+
+
+body main #first{
+    display: block;
+}
+body main #second{
+    display: none;
+}
+body main #third{
+    display: none;
+}
+body main #fourth{
+    display: none;
+}
+body main #fifth{
+    display: none;
+}
+body main #sixth{
+    display: none;
+}
